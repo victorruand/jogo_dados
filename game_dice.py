@@ -1,4 +1,6 @@
 import time, random
+
+
 class game_dice:
     def __init__(self):
         self.name = ""
