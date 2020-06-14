@@ -1,5 +1,4 @@
 import time, random
-from time import sleep
 
 
 continuar = True
@@ -10,8 +9,8 @@ while continuar:
     if answer == 'SIM':
         resultado = random.randint(1,6)
         print('O resultado é: ', resultado)
-        
         answer = input('Você gostaria de jogar navamente?').upper()
+        
         if answer == 'NÃO':
             continuar = False
             print('Tá bom, '+ name +' foi muito bom jogar com você!')
